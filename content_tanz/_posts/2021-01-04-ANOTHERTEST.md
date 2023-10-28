@@ -2,7 +2,7 @@
 title:  Dancing is so much fun!
 subtitle: Check out the fun of it all.
 layout: post
-image: {{ '/img/goat_6.jpeg' | relative_url }}
+image: /img/goat_6.jpeg
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
