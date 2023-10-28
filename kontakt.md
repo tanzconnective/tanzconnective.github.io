@@ -1,6 +1,6 @@
 ---
 title: Kontakt
-permalink: /kontakt/
+permalink: {{ kontakt/ | relative_url }}
 layout: default
 ---
 Allgemeine Anfragen -> office@tanzconnective.at

@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Tanzprojekttage
-image: img/spread_and_sprout/tanzprojekttage.jpg
+image: {{ img/spread_and_sprout/tanzprojekttage.jpg | relative_url }}
 width: full
 subtitle: ...
 ---
