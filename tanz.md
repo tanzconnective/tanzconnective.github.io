@@ -1,6 +1,6 @@
 ---
 title: Tanz
-permalink: {{ '/tanz/' | relative_url }}
+permalink: tanz/
 category: content_tanz
 layout: content_list
 ---
