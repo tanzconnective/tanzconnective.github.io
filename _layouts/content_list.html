@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% include styles.html %}
+</head>
+<body>
+<div class="content">
+
+    {% include logo_large.html %}
+    {% include navigation.html %}
+
+    {% for category in site.categories %}
+        {% if category[0] == page.category %}
+            {% for post in category[1] %}
+                {% if post.width == 'full' %}
+                    <div class="content_block full_width"  style="background-image: url('{{ post.image }}')">
+                {% else %}
+                    <div class="content_block half_width"  style="background-image: url('{{ post.image }}')">
+                {% endif %}
+                    <div style="position: relative">
+                        <!-- <div class="background"></div> -->
+                        <div class="title"> {{ post.title }} </div>
+                        <div class="subtitle"> {{ post.subtitle }} </div>
+                        <div>
+                            <a href="{{ post.url }}">[ ... ]</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+</body>
+</html>
+

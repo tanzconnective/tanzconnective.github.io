@@ -1,0 +1,27 @@
+<script>
+    function openMenu() {
+        document.getElementById("menu").style.width = "20%";
+    }
+
+    function closeMenu() {
+        document.getElementById("menu").style.width = "0%";
+    }
+</script>
+
+
+<div id="menu" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+    <div class="overlay-content">
+        <a href="/tanz">Tanz</a>
+        <a href="/kreation">Kreation</a>
+        <a href="/spread_and_sprout/">Spread & Sprout</a>
+        <a href="/kontakt/">Kontakt</a>
+    </div>
+</div>
+
+
+<nav class="navigation_bar">
+    <a href="#" class="button fa fa-bars" onclick="openMenu()"></a>
+    <a href="#" class="button fa fa-facebook"></a>
+    <a href="#" class="button fa fa-instagram"></a>
+</nav>
