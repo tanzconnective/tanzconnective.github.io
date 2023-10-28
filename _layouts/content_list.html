@@ -15,15 +15,15 @@
         {% if category[0] == page.category %}
             {% for post in category[1] %}
                 {% if post.width == 'full' %}
-                    <div class="content_block full_width"  style="background-image: url('{{ post.image }}')">
+                    <div class="content_block full_width"  style="background-image: url('{{ post.image | relative_url}}')">
                 {% else %}
-                    <div class="content_block half_width"  style="background-image: url('{{ post.image }}')">
+                    <div class="content_block half_width"  style="background-image: url('{{ post.image | relative_url }}')">
                 {% endif %}
                     <div style="position: relative">
                         <div class="title"> {{ post.title }} </div>
                         <div class="subtitle"> {{ post.subtitle }} </div>
                         <div>
-                            <a href="{{ post.url }}">[ ... ]</a>
+                            <a href="{{ post.url | relative_url }}">[ ... ]</a>
                         </div>
                     </div>
                 </div>
