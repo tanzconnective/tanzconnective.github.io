@@ -3,7 +3,7 @@ title: schwerelos & schwindelfrei
 subtitle: Ein Tanzstück für Kinder ab sechs Jahren.
 layout: post
 width: full
-image: {{ img/creation/schwerelos_schwindelfrei.jpg | relative_url }}
+image: {{ '/img/creation/schwerelos_schwindelfrei.jpg' | relative_url }}
 ---
 Ein motivierendes Stück anzupacken, die eigenen Ideen und Träume Wirklichkeit werden zu lassen.
 Keine Laune, keine Lust, nur Frust…

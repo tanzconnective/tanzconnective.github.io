@@ -2,7 +2,7 @@
 title: work in progress
 subtitle: ...
 layout: post
-image: {{ img/.jpg | relative_url }}
+image: {{ '/img/.jpg' | relative_url }}
 ---
 Ein motivierendes Stück anzupacken, die eigenen Ideen und Träume Wirklichkeit werden zu lassen.
 Keine Laune, keine Lust, nur Frust…
