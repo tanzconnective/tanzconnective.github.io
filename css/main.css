@@ -9,6 +9,9 @@ body{
     margin: 0;
     height: 100vh;
     width: 100vw;
+    background-image: url("{{ '/img/pale_pattern.jpg' | relative_url }}");    
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .background {
@@ -18,10 +21,12 @@ body{
     width: 100vw;
     height: 100vh;
     background-image: url("{{ '/img/main_background.jpg' | relative_url }}");
+
     background-size: cover;
     background-attachment: fixed;
     z-index: 0;
 }
+
 .content{
     position: relative;
     width: 100vw;
@@ -36,6 +41,7 @@ body{
     position: absolute;
     top: 20px;
     left: 20px;
+    z-index: 500;
 }
 .logo_top_left_small {
     width: 150px;
@@ -47,25 +53,15 @@ body{
     opacity: 0.7;
 }
 
-.content_block{
-    aspect-ratio: 1;
-    float: left;
-    text-align: center;
-    font-size: 2.5rem;
-    vertical-align: middle;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
-    background-size: cover;
-    color: #fff;
-}
 
 .full_width{
     width: 100%;
 }
+
+.full_width_flat {
+    width: 100%;
+}
+
 
 .half_width {
     width: 50%;
@@ -113,3 +109,4 @@ body{
     font-weight: 600;
     color: #e9b627;
 }
+

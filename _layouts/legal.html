@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% include styles.html %}
+    <link rel="stylesheet" href="{{ '/css/legal.css' | relative_url }}">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="content">
+            
+        {% include logo_large.html %}
+        {% include navigation.html %}
+
+        <div class="legal_content">
+            {{content}}
+        </div>
+
+    </div>
+</body>
+</html>

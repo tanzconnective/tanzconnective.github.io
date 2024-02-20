@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% include styles.html %}
+    <link rel="stylesheet" href="{{ '/css/post.css' | relative_url }}">
+</head>
+<body>
+    <div class="background_post"></div>
+    <div class="content">
+        {% include logo_large.html %}
+        {% include navigation.html %}
+
+        <div class="post">
+            <div class="post_picture"  style="background-image: url('{{ page.image | relative_url }}')"></div>
+            <div class="post_container half_width">
+
+                <div class="post_title">
+                    {{page.title}}
+                </div>
+                <div class="post_subtitle">
+                    {{page.subtitle}}
+                </div>
+                <div class="post_content">
+                    {{content}}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

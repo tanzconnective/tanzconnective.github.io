@@ -1,0 +1,13 @@
+.legal_content{
+    padding: 5rem 10rem;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 1.2rem;
+
+
+    width: 50rem;
+    margin: 10rem auto 0;
+
+    background-color: #e9e4d6cc;
+    border-radius: 0.5rem;
+}

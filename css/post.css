@@ -1,0 +1,58 @@
+---
+title: Another CSS stylesheet.
+---
+.background_post {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url("{{ '/img/main_background.jpg' | relative_url }}"); */
+    /* background-image: url("{{ '/img/main_background.jpg' | relative_url }}"); */
+
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.4;
+    z-index: 0;
+}
+
+.post {
+    width: 100rem;
+    margin: 10rem auto 0;
+
+    background-color: #e9e4d6;
+    border-radius: 0.5rem;
+    /* border-radius: 2rem; */
+}
+
+.post_container{
+    aspect-ratio: 1;
+    float: left;
+}
+
+.post_picture {
+    width: 50%;
+    aspect-ratio: 1;
+    float: left;
+    background-size: cover;
+}
+
+.post_title {
+    font-size: 3rem;
+    margin: 3rem 0 1rem 0;
+    text-align: center;
+    padding-left: 3rem;
+}
+
+.post_subtitle {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 3rem;
+}
+
+.post_content {
+    font-size: 1rem;
+    /* line-height: 2.5rem; */
+    text-align: justify;
+    padding: 4rem 3rem 3rem 3rem;
+}

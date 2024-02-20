@@ -15,10 +15,13 @@
         {% if category[0] == page.category %}
             {% for post in category[1] %}
                 {% if post.width == 'full' %}
-                    <div class="content_block full_width"  style="background-image: url('{{ post.image | relative_url}}')">
+                <div class="content_block full_width">
+                {% elsif post.width == 'fullflat' %}
+                <div class="content_block full_width_flat">
                 {% else %}
-                    <div class="content_block half_width"  style="background-image: url('{{ post.image | relative_url }}')">
+                <div class="content_block half_width">
                 {% endif %}
+                    <div class="content_block_background" style="background-image: url('{{ post.image | relative_url}}')"></div>
                     <div style="position: relative">
                         <div class="title"> {{ post.title }} </div>
                         <div class="subtitle"> {{ post.subtitle }} </div>
@@ -26,7 +29,7 @@
                             <a href="{{ post.url | relative_url }}">[ ... ]</a>
                         </div>
                     </div>
-                </div>
+                 </div>
             {% endfor %}
         {% endif %}
     {% endfor %}
