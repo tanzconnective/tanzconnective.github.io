@@ -2,15 +2,15 @@
     aspect-ratio: 1;
     float: left;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     vertical-align: middle;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 
     position: relative;
-    color: #fff;
-    /* color: #e9b627; */
+    /* color: #fff; */
+    color: #e9b627;
     align-items: center;
     justify-content: center;
     z-index: 100;
@@ -27,3 +27,19 @@
     z-index: 0;
 }
 
+
+.content_block_background:hover {
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(0%);
+    z-index: 0;
+}
+
+
+.content_list_tag {
+    /* background-color: #ffffff; */
+}
