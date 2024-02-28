@@ -1,5 +1,4 @@
 .content_block {
-    aspect-ratio: 1;
     float: left;
     text-align: center;
     font-size: 3rem;
@@ -16,6 +15,27 @@
     z-index: 100;
 }
 
+
+.content_block div {
+    width: 100%;
+}
+
+.content_block .title{
+    font-weight: bold;
+}
+.content_block .subtitle {
+    font-weight: lighter;
+}
+.content_block a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.content_block a:hover{
+    font-weight: bold;
+    color: #e9b627;
+}
+
+
 .content_block_background {
     position: absolute;
     background-size: cover;
@@ -26,7 +46,6 @@
     filter: grayscale(100%);
     z-index: 0;
 }
-
 
 .content_block_background:hover {
     position: absolute;
@@ -42,4 +61,20 @@
 
 .content_list_tag {
     /* background-color: #ffffff; */
+}
+
+.full_width{
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.full_width_flat {
+    width: 100%;
+    aspect-ratio: 2;
+}
+
+
+.half_width {
+    width: 50%;
+    aspect-ratio: 1;
 }
