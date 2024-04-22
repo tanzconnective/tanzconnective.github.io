@@ -1,15 +1,18 @@
 <script>
     function openMenu() {
-        document.getElementById("menu").style.width = "20%";
+        // document.getElementById("menu").style.width = "100%";
+        document.getElementById("menu").classList.add("visible_overlay");
+        document.getElementById("menu").classList.remove("collapsed_overlay");
     }
 
     function closeMenu() {
-        document.getElementById("menu").style.width = "0%";
+        document.getElementById("menu").classList.remove("wide_overlay");
+        document.getElementById("menu").classList.add("collapsed_overlay");
     }
 </script>
 
 
-<div id="menu" class="overlay">
+<div id="menu" class="overlay collapsed_overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
     <div class="overlay-content">
         <a href="{{ '/tanz/' | relative_url }}">Tanz</a>

@@ -39,14 +39,14 @@ body{
 
 .logo_top_left {
     width: 250px;
-    position: fixed;
+    position: absolute;
     top: 20px;
     left: 20px;
     z-index: 500;
 }
 .logo_top_left_small {
     width: 150px;
-    position: fixed;
+    position: absolute;
     top: 20px;
     left: 20px;
 }

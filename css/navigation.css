@@ -1,6 +1,20 @@
-.overlay {
-    height: 100%;
+@media only screen and (orientation: landscape) {
+    .visible_overlay {
+        width: 20%;
+    }
+}
+@media only screen and (orientation: portrait) {
+    .visible_overlay {
+        width: 100%;
+    }
+}
+
+.collapsed_overlay {
     width: 0;
+}
+
+.overlay {
+    height: 100vh;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -12,6 +26,7 @@
     z-index: 1000;
     color: #818181;
 }
+
 
 .overlay-content {
     position: relative;

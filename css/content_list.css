@@ -63,18 +63,39 @@
     /* background-color: #ffffff; */
 }
 
-.full_width{
-    width: 100%;
-    aspect-ratio: 1;
+
+
+@media only screen and (orientation: landscape) {
+    .full_width{
+        width: 100%;
+        aspect-ratio: 1;
+    }
+
+    .full_width_flat {
+        width: 100%;
+        aspect-ratio: 2;
+    }
+
+
+    .half_width {
+        width: 50%;
+        aspect-ratio: 1;
+    }
 }
 
-.full_width_flat {
-    width: 100%;
-    aspect-ratio: 2;
-}
+@media only screen and (orientation: portrait) {
+    .full_width{
+        width: 100%;
+        aspect-ratio: 1;
+    }
 
+    .full_width_flat {
+        width: 100%;
+        aspect-ratio: 1;
+    }
 
-.half_width {
-    width: 50%;
-    aspect-ratio: 1;
+    .half_width {
+        width: 100%;
+        aspect-ratio: 1;
+    }
 }

@@ -1,7 +1,8 @@
 ---
 title:  Tanzconnec:tive
-layout: post
+layout: tanzconnective
 image: img/tanz/tanzconnective.jpg
+cover: img/tanz/tanzconnective2.jpg
 width: fullflat
 ---
 Durch unser künstlerisches Schaffen stellen wir uns der Aufgabe, vielfältige Begegnungen mit Zeitgenössischem Tanz zu gestalten - und das für alle! Ob klein, ob groß, jung oder alt, Bewegungsakrobaten, Tanzneulinge.
