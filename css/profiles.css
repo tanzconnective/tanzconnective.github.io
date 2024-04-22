@@ -1,0 +1,61 @@
+.bubble_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.bubble{
+    display: flex;
+    grid-template: 1fr / 1fr;
+    place-items: center;
+    align-items: center; 
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    float: left;
+    margin: 0.2rem 1rem;
+    background-color: #a1c2cc;
+    border-radius: 50%;
+    height: 13rem;
+    width: 13rem;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.bubble:hover {
+    background-color: #cce3eb;
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+    text-align: center;
+    transition: all 0.5s ease;
+    /* border-color: black;
+    border-width: 0.1rem;
+    border-style: solid; */
+    color: #00000000;
+
+    .below {
+        visibility: visible;
+        transition: all 0.5s ease;
+        color: black;
+    }
+}
+
+emph {
+    font-weight: bold;
+}
+
+.below {
+    visibility: hidden;
+    position: absolute;
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    font-weight: 200;
+    font-size: 1rem;
+ }
