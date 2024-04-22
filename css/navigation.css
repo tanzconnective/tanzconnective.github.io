@@ -67,18 +67,17 @@
 }
 
 .navigation_bar {
-    width: 50px;
-    /* position: absolute; */
-    position: fixed;
+    width: 3rem;
+    position: absolute;
     left: 0px;
-    top: 270px;
+    top: 20rem;
     z-index: 550;
 }
 
 /* Style all font awesome icons */
 .button {
     padding: 20px;
-    width: 50px;
+    width: 3rem;
     text-align: center;
     text-decoration: none;
 }
