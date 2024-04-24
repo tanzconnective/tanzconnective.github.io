@@ -9,7 +9,7 @@
 <body>
 <div class="content">
 
-    {% include logo_large.html %}
+    {% include logo.html %}
     {% include navigation.html %}
 
     {% for category in site.categories %}
@@ -24,10 +24,10 @@
                 {% endif %}
                     <div class="content_block_background" style="background-image: url('{{ post.image | relative_url}}')"></div>
                     <div class="content_list_tag" style="position: relative">
-                        <div class="title"> {{ post.title }} </div>
+                        <!-- <div class="title"> {{ post.title }} </div> -->
                         <!-- <div class="subtitle"> {{ post.subtitle }} </div> -->
                         <div>
-                            <a href="{{ post.url | relative_url }}">[ ... ]</a>
+                            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                         </div>
                     </div>
                  </div>

@@ -11,8 +11,6 @@ Daniela Schilcher<br>
 Herminengasse 13/12<br>
 Austria
 
-📞 0681/20305653<br>
-📞 0664/5093650<br>
 📧 office@tanzconnective.at
 
 Medieninhaber: Christina Ebner, Daniela Schilcher

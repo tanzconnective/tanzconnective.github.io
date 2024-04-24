@@ -76,9 +76,8 @@
 
 /* Style all font awesome icons */
 .button {
-    padding: 20px;
-    width: 3rem;
-    text-align: center;
+    padding: 1.5rem;
+    text-align: left;
     text-decoration: none;
 }
 

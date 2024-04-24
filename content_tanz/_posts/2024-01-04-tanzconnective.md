@@ -1,6 +1,6 @@
 ---
 title:  Tanzconnec:tive
-layout: tanzconnective
+layout: post
 image: img/tanz/tanzconnective.jpg
 cover: img/tanz/tanzconnective2.jpg
 width: fullflat

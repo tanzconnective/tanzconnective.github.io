@@ -2,33 +2,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 auto;
-    padding: 1rem;
+    margin: 1rem auto 0;
+    padding: 1rem 0 4rem 0;
 }
 
 .bubble{
     display: flex;
-    grid-template: 1fr / 1fr;
-    place-items: center;
     align-items: center; 
     justify-content: center;
     color: white;
     font-weight: bold;
     float: left;
-    margin: 0.2rem 1rem;
     background-color: #a1c2cc;
+    /* background-color: #d1a737; */
     border-radius: 50%;
-    height: 13rem;
-    width: 13rem;
-    text-align: center;
     transition: all 0.5s ease;
 }
 
 .bubble:hover {
     background-color: #cce3eb;
     border-radius: 50%;
-    height: 20rem;
-    width: 20rem;
     text-align: center;
     transition: all 0.5s ease;
     /* border-color: black;
@@ -40,7 +33,8 @@
         visibility: visible;
         transition: all 0.5s ease;
         color: black;
-    }
+    };
+
 }
 
 emph {
@@ -50,12 +44,72 @@ emph {
 .below {
     visibility: hidden;
     position: absolute;
-    height: 15rem;
-    width: 15rem;
     display: flex;
     flex-direction: column;
     align-items: center; 
     justify-content: center;
     font-weight: 200;
-    font-size: 1rem;
  }
+
+.post_content {
+    text-align: left !important;
+}
+
+li::marker {
+    content: "》   ";
+    font-size: 1.1rem;
+}
+
+
+@media only screen and (orientation: portrait) {
+
+    .bubble_container{
+        width: 100%;
+        text-align: center;
+    }
+
+    .bubble{
+        margin: 0.2rem 1rem;
+        height: 11rem;
+        width: 11rem;
+    }
+
+    .bubble:hover {
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .below {    
+        height: 15rem;
+        width: 15rem;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+
+    .bubble_container{
+        width: 50%;
+        text-align: center;
+    }
+
+    .bubble{
+        margin: 0.2rem 1rem;
+        height: 13rem;
+        width: 13rem;
+    }
+
+    .bubble:hover {
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .below {    
+        height: 15rem;
+        width: 15rem;
+        font-size: 1rem;
+    }
+}
+
+
+
