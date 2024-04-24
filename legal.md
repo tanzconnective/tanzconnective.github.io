@@ -18,7 +18,7 @@ Medieninhaber: Christina Ebner, Daniela Schilcher
 Verbraucher haben die Möglichkeit, Beschwerden an die Online-Streitbeilegungsplattform der EU zu richten: http://ec.europa.eu/odr. Sie können allfällige Beschwerde auch an die oben angegebene E-Mail-Adresse richten.
 
 ### Haftung für die Inhalte dieser Website
-Die Website und ihre Inhalte werden laufen von uns aktualisiert und weiterentwickelt.
+Die Website und ihre Inhalte werden laufend von uns aktualisiert und weiterentwickelt.
 Sollten Ihnen problematische oder rechtswidrige Inhalte auffallen, bitte wir Sie uns umgehend zu kontaktieren.
 
 
