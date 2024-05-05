@@ -66,4 +66,4 @@ jobs:
           username: 197094ftp1
           password: ${{ secrets.ftp_password }}
           local-dir: _site/
-          server-dir: /website/
+          server-dir: website/
