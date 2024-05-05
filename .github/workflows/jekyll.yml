@@ -1,4 +1,4 @@
-name: Deploy Jekyll site to pages and easyname
+name: Deploy to easyname
 
 on:
   push:
@@ -41,29 +41,29 @@ jobs:
           JEKYLL_ENV: production
 
       - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v4
+        with:
+          name: jekyll-site
+          path: ./_site
 
-  deploy-pages:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  deploy-easyname:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: jekyll-site
+          path: _site
 
-  deploy-deasyname:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
+      - name: Show files
+        run: ls -R
+
       - name: Deploy to easyname via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: e129557-ftp.services.easyname.eu
           username: 197094ftp1
           password: ${{ secrets.ftp_password }}
-          local-dir: ./_site/
+          local-dir: _site/
           server-dir: /website/
