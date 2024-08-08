@@ -48,6 +48,15 @@
     text-decoration: none;
 }
 
+.post_videos {
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    width: 100%;
+    aspect-ratio: 1.78; # This is 16:9.
+}
 
 @media only screen and (orientation: portrait) {
     .post_picture {

@@ -27,7 +27,7 @@ Mit freundlicher Unterstützung von
 <br>
 
 ### Teaser & Trailer
-<div><iframe height="350" src="https://player.vimeo.com/video/938666092" frameborder="0" allow="fullscreen" allowfullscreen></iframe></div>
-
-<div><iframe height="350" src="https://player.vimeo.com/video/938708698?h=ee125410c7" frameborder="0" allow="fullscreen" allowfullscreen></iframe></div>
-
+<div class=".post_videos">
+    <iframe src="https://player.vimeo.com/video/938666092" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/938708698?h=ee125410c7" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
+</div>
