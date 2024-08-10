@@ -41,6 +41,9 @@ emph {
     font-weight: bold;
 }
 
+.tiny {
+    font-size: 0.75rem;
+}
 .below {
     visibility: hidden;
     position: absolute;
@@ -75,8 +78,8 @@ li::marker {
     }
 
     .bubble:hover {
-        height: 20rem;
-        width: 20rem;
+        height: 25rem;
+        width: 25rem;
     }
 
     .below {    
@@ -100,8 +103,8 @@ li::marker {
     }
 
     .bubble:hover {
-        height: 20rem;
-        width: 20rem;
+        height: 25rem;
+        width: 25rem;
     }
 
     .below {    

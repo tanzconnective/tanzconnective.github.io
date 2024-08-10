@@ -15,7 +15,13 @@
         {% include navigation.html %}
 
         <div class="post">
+
+            {% if page.cover %}
+            <div class="post_picture"  style="background-image: url('{{ page.cover | relative_url }}')"></div>
+            {% else %}
             <div class="post_picture"  style="background-image: url('{{ page.image | relative_url }}')"></div>
+            {% endif %}
+
             <div class="post_container half_width">
 
                 <div class="post_title">

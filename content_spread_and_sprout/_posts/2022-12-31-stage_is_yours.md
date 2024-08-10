@@ -10,4 +10,5 @@ Dieses Angebot ist für alle neugierigen Bewegungsbegeisterten geeignet, die sel
 Gerne kreieren wir zu vorhandenen Themen/Musikwünschen oder schlagen euch unsere Ideen vor.
 
 „Stage is (Y)OURS!“ fokussiert die Freude an der Bewegung und am gemeinsamen Gestalten: als Gruppe etwas entstehen lassen, zusammen zur Musik tanzen, durch Bewegung eine Geschichte erzählen und das Publikum staunen lassen.
+
 Preis auf Anfrage.
