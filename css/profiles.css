@@ -7,20 +7,23 @@
 }
 
 .bubble{
+    background-color: #e2c392;
+    /* background-color: #dbb26f; */
+    /* background-color: #a1c2cc; */
     display: flex;
     align-items: center; 
     justify-content: center;
     color: white;
     font-weight: bold;
     float: left;
-    background-color: #a1c2cc;
-    /* background-color: #d1a737; */
     border-radius: 50%;
     transition: all 0.5s ease;
 }
 
 .bubble:hover {
-    background-color: #cce3eb;
+    background-color: #f1d48e;
+    /* background-color: #eecf79; */
+    /* background-color: #cce3eb; */
     border-radius: 50%;
     text-align: center;
     transition: all 0.5s ease;
@@ -92,7 +95,7 @@ li::marker {
 @media only screen and (orientation: landscape) {
 
     .bubble_container{
-        width: 50%;
+        width: 80%;
         text-align: center;
     }
 
